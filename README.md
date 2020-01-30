@@ -33,7 +33,7 @@ Delieverable
    team members' log files 
    
  ### Updated in Week 2
-   Unity Version: 2018.4.16f1(LTS)
+   Unity Version: 2018.4.16f1 (LTS)
   
  
 
