@@ -1,0 +1,6 @@
+Student name: Ruonan Li
+Student number: 101058609
+
+work log: 
+Wedensday: practice presentation in the group meeting
+Friday: learn about developing Android applications with unity

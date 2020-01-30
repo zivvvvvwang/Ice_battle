@@ -1,0 +1,3 @@
+Mon.  Finishing one of the design for playing roles <- Husky (first draft)
+Wed.  Group meeting: the practice of presentation
+Fri.  Thinking about the main part of UI design for the playing interface

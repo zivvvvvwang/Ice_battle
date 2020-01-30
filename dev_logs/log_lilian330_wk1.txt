@@ -1,0 +1,7 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+Wednesday: Group meeting: Practice presentation.
+Friday: Learn about building apps for Android with Unity.
