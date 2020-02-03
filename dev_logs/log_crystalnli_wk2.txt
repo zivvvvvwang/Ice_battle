@@ -1,0 +1,5 @@
+Student name: Ruonan Li
+Student number: 101058609
+
+Wednesday: learn about how to build and develop android application using Unity.
+	   Discuss about project design patterns and distributing tasks 
