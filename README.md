@@ -33,16 +33,16 @@ Delieverable
    team members' log files 
    
  ### Updated in Week 2
-   Unity Version: 2018.4.16f1 (LTS)
-   Unity Scenes:
-     Main_page  - Ziwen Wang
-     Choose_Model - Ziwen Wang
+ - Unity Version: 2018.4.16f1 (LTS)
+ - Unity Scenes:
+    - Main_page  - Ziwen Wang
+    - Choose_Model - Ziwen Wang
  
  ### Updated in Week 3
-   UnityScenes:
-     Role_definition - Ruonan Li
-     Game_Scene - Ziwen Wang
-     Score_Punishment_scence - Lilian Wang
+ - UnityScenes:
+    - Role_definition - Ruonan Li
+    - Game_Scene - Ziwen Wang
+    - Score_Punishment_scence - Lilian Wang
 
 ## Description
   Ice Battle ​is a co-op mobile game that supports 2 to 4 players to play on the same screen. This game uses several elements of a survival game with last-man-standing gameplay. Players will control different roles to crush other people in the melting ice to get the chance of winning.
