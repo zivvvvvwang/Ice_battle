@@ -1,0 +1,5 @@
+name: Ruo Nan Li
+Student number: 101058609
+
+Wednesday: Discussed with group member to confirm UI and function requirement for each scene. Created character select scene
+Saturday: Added buttons and input field on the character selection scene
