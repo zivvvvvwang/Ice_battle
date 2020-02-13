@@ -1,0 +1,7 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+Jan 29 Wednesday: Group meeting: Install Unity, learn about Unity -- 3h
+Jan 30 Thursday: Design lifecycle of application via figma  --3h
