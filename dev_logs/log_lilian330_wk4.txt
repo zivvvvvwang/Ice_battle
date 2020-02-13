@@ -1,0 +1,6 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+Feb 12 Wednesday: Group meeting: Discussion on Component diagram -- 3h
