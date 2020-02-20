@@ -63,10 +63,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Cartoon\script\CartoonAchievement.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonDropdown.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonHorSlide.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonLevelButton.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonShop.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonSimpleScroll.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonSlider.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonStars.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonToggle.cs" />
+    <Compile Include="Assets\Cartoon\script\CartoonVertSlide.cs" />
+    <Compile Include="Assets\script\BackgroundChange.cs" />
+    <Compile Include="Assets\script\ControlPlayer.cs" />
+    <Compile Include="Assets\script\ControlSprites1.cs" />
     <Compile Include="Assets\script\Devaloper_shown.cs" />
     <Compile Include="Assets\script\image_show.cs" />
     <Compile Include="Assets\script\Menu_button.cs" />
-    <Compile Include="Assets\script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\script\Model_Static_value.cs" />
+    <Compile Include="Assets\script\Set_player_number.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/aki/Desktop/ziv/unity/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
