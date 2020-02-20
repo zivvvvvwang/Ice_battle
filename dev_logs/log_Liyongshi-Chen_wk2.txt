@@ -1,2 +1,2 @@
-1.start to working on Unity
-2.update read me file
+Thr.start to working on Unity
+Fri.update read me file
