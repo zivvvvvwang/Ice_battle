@@ -1,0 +1,4 @@
+Thursday: Changed the previous UI, Create mainCanvas, ModelChoosing Canvas, Playername Canvas. 
+          These changes in order to make the Start Scene more smoothly. 
+          Make gameplay scene, add four characters and buttons on the four corners, realized character rotate, 
+          button can control character rotate, which means player press button, character will stop rotate. 
