@@ -1,0 +1,6 @@
+Name: Ruo Nan Li
+Student number: 101058609
+
+Wednesday: Joined group meeting and discussed about component diagram and delivery 2 with group members.
+	Modified character selection page: learned about adding event system in the scene.
+
