@@ -1,34 +1,18 @@
-﻿<Properties StartupConfiguration="{E0B65C21-5C68-FDDB-2B9A-2624E1002E7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cartoon/script/CartoonDropdown.cs">
-    <Files>
-      <File FileName="Assets/script/Menu_button.cs" Line="9" Column="7" />
-      <File FileName="Assets/script/ControlSprites1.cs" />
-      <File FileName="Assets/script/Model_Static_value.cs" />
-      <File FileName="Assets/script/Set_player_number.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" Line="109" Column="1" />
-      <File FileName="Assets/Cartoon/script/CartoonHorSlide.cs" />
-      <File FileName="Assets/script/ControlPlayer.cs" />
-    </Files>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ice Battle" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Cartoon" expanded="True">
-                <Node name="script" expanded="True">
-                  <Node name="CartoonDropdown.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="script" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Ice Battle" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Assembly-CSharp.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="36c5fb56-5769-4290-8bbe-1344ba5c2d30" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
