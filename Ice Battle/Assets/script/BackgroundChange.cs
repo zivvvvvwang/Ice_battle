@@ -6,7 +6,7 @@ public class BackgroundChange : MonoBehaviour
 {
     private Vector3 changeScale;
     private bool pause;
-    public float speed = 0 ;
+    public float speed ;
     
     private void Start()
     {

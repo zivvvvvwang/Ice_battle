@@ -14,7 +14,7 @@ public class CollisionCheck : MonoBehaviour
         //player_num_check = GetComponent<Restart_Game>().player;
         player_score = Set_player_number.numberSliderGet;
         
-        //Debug.Log(player_num_check);
+        Debug.Log("........." + player_score);
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
