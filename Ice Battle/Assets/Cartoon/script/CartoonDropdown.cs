@@ -27,8 +27,8 @@ public class CartoonDropdown : MonoBehaviour
     //-------
     private void Start()
     {
-        nomal = GameObject.Find("nomalMode").GetComponent<Text>();
-        pops = GameObject.Find("popMode").GetComponent<Text>();
+        nomal = GameObject.Find("NormalMode").GetComponent<Text>();
+        pops = GameObject.Find("ExMode").GetComponent<Text>();
         down = GameObject.Find("display").GetComponent<Text>();
 
     }
@@ -100,13 +100,13 @@ public class CartoonDropdown : MonoBehaviour
     public void changeNomalContext()
     {
         down.text = nomal.text;
-        modelNumber.model_choose(0);
+        //modelNumber.model_choose(0);
         //StartCoroutine("SlideUp");
     }
     public void changePopContext()
     {
         down.text = pops.text;
-        modelNumber.model_choose(1);
+        //modelNumber.model_choose(1);
         //StartCoroutine("SlideUp");
     }
 }
