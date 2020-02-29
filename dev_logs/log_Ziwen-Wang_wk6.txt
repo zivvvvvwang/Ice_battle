@@ -1,0 +1,12 @@
+Wednesday: Fix some bug in game. 
+Almost finish inGamePlay secens(only normal mode) 
+realize player rotate, 
+realize the velocity on current direction, 
+realize timer display on the screen.
+realize collision bewteen players 
+
+Thursday:
+realize pause/play during the game
+realize retry the game
+realize each player's score display on the screen
+realize change the scence bewteen ingameplay and main menu
