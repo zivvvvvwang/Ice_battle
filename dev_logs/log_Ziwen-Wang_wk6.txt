@@ -10,3 +10,7 @@ realize pause/play during the game
 realize retry the game
 realize each player's score display on the screen
 realize change the scence bewteen ingameplay and main menu
+
+Saturday:
+Connect to all the scences from other team member, and test on phone, find and fix some bugs.
+Group to write status report which is the delivable 2. 
