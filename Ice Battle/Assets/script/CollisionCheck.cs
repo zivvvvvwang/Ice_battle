@@ -1,17 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class CollisionCheck : MonoBehaviour
 {
-    public int player_score;
+    public static float player_score;
     
     
     private void Start()
     {
         //player_num_check = GetComponent<Restart_Game>().player;
-        player_score = 0;
+        player_score = Set_player_number.numberSliderGet;
         
         //Debug.Log(player_num_check);
     }
@@ -21,7 +22,13 @@ public class CollisionCheck : MonoBehaviour
         {
             
             this.gameObject.SetActive(false);
-            
+            player_score -= 1;
+
+            if (player_score == 1 || player_score == 0)
+            {
+                SceneManager.LoadScene("pulishment");
+            }
+            Debug.Log(player_score);
         }
         //Debug.Log(collision.gameObject.name);
     }
@@ -35,7 +42,7 @@ public class CollisionCheck : MonoBehaviour
             collision.gameObject.transform.position += gameObject.GetComponent<ControlSprites1>().direction * 0.3f;
             gameObject.transform.position -= gameObject.GetComponent<ControlSprites1>().direction * 0.3f;
             //Debug.Log(gameObject.transform.position);
-            Debug.Log("dir" +  gameObject.GetComponent<ControlSprites1>().direction);
+            //Debug.Log("dir" +  gameObject.GetComponent<ControlSprites1>().direction);
             //Debug.Log("1");
         }
     }

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InGamePlay.unity
     guid: fea2de5ce508541d6b0c5bae9c56dca9
+  - enabled: 1
+    path: Assets/Scenes/pulishment.unity
+    guid: a64dd8d08706146e2959775b1432b776
   m_configObjects: {}

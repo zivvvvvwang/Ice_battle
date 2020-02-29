@@ -13,6 +13,7 @@ public class ControlSprites1 : MonoBehaviour
     private float angle;
     private float a;
     private float vel = 1;
+    private float playerNum;
     
 
     //tart is called before the first frame update
@@ -21,6 +22,29 @@ public class ControlSprites1 : MonoBehaviour
         stopRotate = false;
         pause = false;
         score = 0;
+        playerNum = Set_player_number.numberSliderGet;
+        //playerNum = 4;
+        if (playerNum == 1 && this.name == "Assassino")
+        {
+            GameObject.Find("Player2").SetActive(false);
+            GameObject.Find("Player3").SetActive(false);
+            GameObject.Find("Player4").SetActive(false);
+            GameObject.Find("Mago").SetActive(false);
+            GameObject.Find("Carrasco").SetActive(false);
+            GameObject.Find("Gueirreiro").SetActive(false);
+        }else if (playerNum == 2 && (this.name == "Assassino" || this.name == "Carrasco"))
+        {
+            
+            GameObject.Find("Player3").SetActive(false);
+            GameObject.Find("Player4").SetActive(false);
+            GameObject.Find("Mago").SetActive(false);
+            GameObject.Find("Gueirreiro").SetActive(false);
+            
+        }else if (playerNum == 3 && this.name != "Mago")
+        {
+            GameObject.Find("Player4").SetActive(false);
+            GameObject.Find("Mago").SetActive(false);
+        }
     }
     public void click()
     {
@@ -56,7 +80,7 @@ public class ControlSprites1 : MonoBehaviour
             a = (angle * Mathf.PI) / 180 -80;
             direction = new Vector3(vel * Mathf.Cos(a), vel * Mathf.Sin(a), 0);
             transform.position += direction * Time.deltaTime;
-            Debug.Log("===" + angle);
+            //Debug.Log("===" + angle);
             //Debug.Log(Mathf.Cos(angle));
             //Debug.Log(vel * Mathf.Cos(angle));
         }

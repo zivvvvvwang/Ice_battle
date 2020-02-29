@@ -12,7 +12,7 @@ public class Restart_Game : MonoBehaviour
     public void RestartGame(string scenesName)
     { 
             SceneManager.LoadScene(scenesName);
-            Debug.Log("...");
+            //Debug.Log("...");
         
     }
     void Start()
