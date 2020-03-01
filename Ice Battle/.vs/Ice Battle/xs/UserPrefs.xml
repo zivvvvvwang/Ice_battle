@@ -1,34 +1,38 @@
 ﻿<Properties StartupConfiguration="{E0B65C21-5C68-FDDB-2B9A-2624E1002E7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cartoon/script/CartoonDropdown.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/PunishmentScript.cs">
     <Files>
-      <File FileName="Assets/script/Menu_button.cs" Line="9" Column="7" />
-      <File FileName="Assets/script/ControlSprites1.cs" />
-      <File FileName="Assets/script/Model_Static_value.cs" />
-      <File FileName="Assets/script/Set_player_number.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" Line="109" Column="1" />
-      <File FileName="Assets/Cartoon/script/CartoonHorSlide.cs" />
-      <File FileName="Assets/script/ControlPlayer.cs" />
+      <File FileName="Assets/script/SettlementScript.cs" Line="27" Column="10" />
+      <File FileName="Assets/script/PunishmentScript.cs" Line="34" Column="10" />
+      <File FileName="Assets/script/ScoreScript.cs" Line="40" Column="39" />
+      <File FileName="Assets/script/Get_player_name.cs" Line="6" Column="14" />
+      <File FileName="Assets/script/Player.cs" Line="20" Column="1" />
+      <File FileName="Assets/script/Menu_button.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/ControlPlayer.cs" Line="14" Column="17" />
+      <File FileName="Assets/script/CollisionCheck.cs" Line="20" Column="6" />
+      <File FileName="Assets/script/BackgroundChange.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Score.cs" Line="10" Column="1" />
+      <File FileName="Assets/script/Set_player_number.cs" Line="20" Column="9" />
+      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" Line="26" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ice Battle" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Cartoon" expanded="True">
-                <Node name="script" expanded="True">
-                  <Node name="CartoonDropdown.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="script" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Ice Battle" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Ice Battle" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="36c5fb56-5769-4290-8bbe-1344ba5c2d30" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="939c2627-b44b-447a-a0c2-9e3a25d83358" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
