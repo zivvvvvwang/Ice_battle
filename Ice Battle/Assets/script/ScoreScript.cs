@@ -24,12 +24,6 @@ public class ScoreScript : MonoBehaviour
         walrus_name = Get_player_name.p2name;
         husky_name = Get_player_name.p3name;
         penguin_name = Get_player_name.p4name;
-
-        //Debug
-        //bear_name = "1";
-        //walrus_name = "22";
-        //husky_name = "333";
-        //penguin_name ="4444";
  
         p1score = 1111;
         p2score = 22222;
@@ -72,39 +66,22 @@ public class ScoreScript : MonoBehaviour
 
         if (player_number == 1)
         {
-            //walrus.SetActive(false);
-            //husky.SetActive(false);
-            //penguin.SetActive(false);
             bear_score.text = string.Format(s, bear_name, p1score);
-            //walrus_score.text = string.Format(s, walrus_name, p2score);
-            //husky_score.text = string.Format(s, husky_name, p3score);
-            //penguin_score.text = string.Format(s, penguin_name, p4score);
-
-
-        }
-        else if (player_number == 2)
+        }else if (player_number == 2)
         {
-            //husky.SetActive(false);
-            //penguin.SetActive(false);
             bear_score.text = string.Format(s, bear_name, p1score);
             walrus_score.text = string.Format(s, walrus_name, p2score);
-          
-
-        }
-        else if (player_number == 3)
+        }else if (player_number == 3)
         {
-            //penguin.SetActive(false);
             bear_score.text = string.Format(s, bear_name, p1score);
             walrus_score.text = string.Format(s, walrus_name, p2score);
             husky_score.text = string.Format(s, husky_name, p3score);
-          
-
+        }else {
+            bear_score.text = string.Format(s, bear_name, p1score);
+            walrus_score.text = string.Format(s, walrus_name, p2score);
+            husky_score.text = string.Format(s, husky_name, p3score);
+            penguin_score.text = string.Format(s, penguin_name, p4score);
         }
-
-        //bear_score.text = string.Format(s, bear_name, p1score);
-        //walrus_score.text = string.Format(s, walrus_name, p2score);
-        //husky_score.text = string.Format(s, husky_name, p3score);
-        //penguin_score.text = string.Format(s, penguin_name, p4score);
 
     }
 }
