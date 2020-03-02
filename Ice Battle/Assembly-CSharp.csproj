@@ -84,9 +84,12 @@
     <Compile Include="Assets\script\Menu_button.cs" />
     <Compile Include="Assets\script\Model_Static_value.cs" />
     <Compile Include="Assets\script\Player.cs" />
+    <Compile Include="Assets\script\PunishmentScript.cs" />
     <Compile Include="Assets\script\Restart_Game.cs" />
     <Compile Include="Assets\script\Score.cs" />
+    <Compile Include="Assets\script\ScoreScript.cs" />
     <Compile Include="Assets\script\Set_player_number.cs" />
+    <Compile Include="Assets\script\SettlementScript.cs" />
     <Compile Include="Assets\script\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/aki/Desktop/ziv/unity/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

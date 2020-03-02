@@ -13,7 +13,11 @@ public class CollisionCheck : MonoBehaviour
     {
         //player_num_check = GetComponent<Restart_Game>().player;
         player_score = Set_player_number.numberSliderGet;
-        
+        if (gameObject.tag == "Player")
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f,0.0f);
+        }
+
         Debug.Log("........." + player_score);
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -23,10 +27,10 @@ public class CollisionCheck : MonoBehaviour
             
             this.gameObject.SetActive(false);
             player_score -= 1;
-
+            this.gameObject.GetComponent<ControlSprites1>().score -= 5;
             if (player_score == 1 || player_score == 0)
             {
-                SceneManager.LoadScene("pulishment");
+                SceneManager.LoadScene("punishment");
             }
             Debug.Log(player_score);
         }
@@ -39,15 +43,27 @@ public class CollisionCheck : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             //collision.gameObject.transform.position += this.gameObject.GetComponent
-            collision.gameObject.transform.position += gameObject.GetComponent<ControlSprites1>().direction * 0.3f;
-            gameObject.transform.position -= gameObject.GetComponent<ControlSprites1>().direction * 0.3f;
+            //collision.gameObject.transform.position += gameObject.GetComponent<ControlSprites1>().direction * 0.3f;
+            //collision.gameObject.GetComponent<Rigidbody>().velocity += ;
             //Debug.Log(gameObject.transform.position);
-            //Debug.Log("dir" +  gameObject.GetComponent<ControlSprites1>().direction);
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Cos(gameObject.GetComponent<ControlSprites1>().direction.x), Mathf.Sin(gameObject.GetComponent<ControlSprites1>().direction.y));
+            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-1 * Mathf.Cos(gameObject.GetComponent<ControlSprites1>().direction.x), -1 * Mathf.Sin(gameObject.GetComponent<ControlSprites1>().direction.y));
+            //gameObject.GetComponent<Rigidbody2D>().MovePosition(gameObject.GetComponent<Rigidbody2D>().velocity * -0.1f);
+            //gameObject.transform.position -= 0.5f * new Vector3(gameObject.GetComponent<Rigidbody2D>().velocity.x, gameObject.GetComponent<Rigidbody2D>().velocity.y, 1f);
+            //collision.gameObject.transform.position += 0.5f * new Vector3(gameObject.GetComponent<Rigidbody2D>().velocity.x, gameObject.GetComponent<Rigidbody2D>().velocity.y, 1f);
+            collision.gameObject.transform.position += gameObject.GetComponent<ControlSprites1>().direction * 0.2f;
+            gameObject.transform.position -= gameObject.GetComponent<ControlSprites1>().direction * 0.1f;
+
+            Debug.Log("vel" +  collision.gameObject.GetComponent<Rigidbody2D>().velocity);
             //Debug.Log("1");
         }
     }
     void Update()
     {
+        if (gameObject.tag == "Player")
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity *= 0.99f;
+        }
         
     }
 }

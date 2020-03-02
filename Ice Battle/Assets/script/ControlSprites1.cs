@@ -11,6 +11,7 @@ public class ControlSprites1 : MonoBehaviour
     public Vector3 direction;
     public int score;
     private float angle;
+    private float acc;
     private float a;
     private float vel = 1;
     private float playerNum;
@@ -22,6 +23,7 @@ public class ControlSprites1 : MonoBehaviour
         stopRotate = false;
         pause = false;
         score = 0;
+        acc = 0;
         playerNum = Set_player_number.numberSliderGet;
         //playerNum = 4;
         if (playerNum == 1 && this.name == "Assassino")
@@ -49,6 +51,7 @@ public class ControlSprites1 : MonoBehaviour
     public void click()
     {
         stopRotate = true;
+        acc += 1f;
         
     }
     public void check()
@@ -62,6 +65,11 @@ public class ControlSprites1 : MonoBehaviour
     public void unclick()
     {
         stopRotate = false;
+        if (acc > 0)
+        {
+            acc -= 0.9f;
+        }
+        
         
     }
     // Update is called once per frame
@@ -79,8 +87,8 @@ public class ControlSprites1 : MonoBehaviour
             angle = transform.eulerAngles.z;
             a = (angle * Mathf.PI) / 180 -80;
             direction = new Vector3(vel * Mathf.Cos(a), vel * Mathf.Sin(a), 0);
-            transform.position += direction * Time.deltaTime;
-            //Debug.Log("===" + angle);
+            transform.position +=  acc * direction * Time.deltaTime;
+            Debug.Log("===" + direction);
             //Debug.Log(Mathf.Cos(angle));
             //Debug.Log(vel * Mathf.Cos(angle));
         }
