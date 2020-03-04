@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Set_player_number : MonoBehaviour
 {
-    public float numberSliderGet;
+    public static float numberSliderGet;
     private Text numberSetter;
     // Start is called before the first frame update
     void Start()

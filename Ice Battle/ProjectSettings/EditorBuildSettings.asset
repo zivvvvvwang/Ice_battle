@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main_page.unity
     guid: 92a86321f1d2347b68cb0b849e36b29f
+  - enabled: 1
+    path: Assets/Scenes/InGamePlay.unity
+    guid: fea2de5ce508541d6b0c5bae9c56dca9
   - enabled: 0
-    path: Assets/Scenes/Choose_modea.unity
-    guid: 4733bf01cc8594f76857ae89213a0743
-  - enabled: 0
-    path: Assets/Scenes/Nomal_Play_page.unity
-    guid: 17e4ebf7f68c8494498fd7ffa312babf
+    path: Assets/Scenes/pulishment.unity
+    guid: a64dd8d08706146e2959775b1432b776
+  - enabled: 1
+    path: Assets/Scenes/punishment.unity
+    guid: 55043b7e16edf436fa468d61c668b904
   m_configObjects: {}
