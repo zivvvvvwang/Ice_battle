@@ -75,6 +75,7 @@
     <Compile Include="Assets\Cartoon\script\CartoonVertSlide.cs" />
     <Compile Include="Assets\script\BackgroundChange.cs" />
     <Compile Include="Assets\script\CollisionCheck.cs" />
+    <Compile Include="Assets\script\control_music.cs" />
     <Compile Include="Assets\script\ControlPlayer.cs" />
     <Compile Include="Assets\script\ControlSprites1.cs" />
     <Compile Include="Assets\script\Devaloper_shown.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\script\Set_player_number.cs" />
     <Compile Include="Assets\script\SettlementScript.cs" />
     <Compile Include="Assets\script\Timer.cs" />
+    <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/aki/Desktop/ziv/unity/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

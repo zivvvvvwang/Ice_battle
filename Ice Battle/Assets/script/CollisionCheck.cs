@@ -26,8 +26,9 @@ public class CollisionCheck : MonoBehaviour
         {
             
             this.gameObject.SetActive(false);
-            player_score -= 1;
             this.gameObject.GetComponent<ControlSprites1>().score -= 5;
+            player_score -= 1;
+            
             if (player_score == 1 || player_score == 0)
             {
                 SceneManager.LoadScene("punishment");
