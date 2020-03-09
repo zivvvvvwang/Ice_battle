@@ -1,0 +1,7 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+Feb 19 Wednesday: Group meeting: Discussion and assigned duty on UI. -- 3h
+Feb 22 Saturday: Working on UI and script of Score scene of the project. -- 5h

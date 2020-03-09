@@ -1,0 +1,8 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+Feb 26 Wednesday: Group meeting: Meeting with the process of UI  -- 3h
+Feb 28 Saturday: Working on UI and script of Punishment scene. --5h
+Feb 29 Sunday: Fixed bugs of score and punishment scenes, also discussing on delivery 2 and demo. -- 5h
