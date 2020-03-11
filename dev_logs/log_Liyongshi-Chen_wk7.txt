@@ -1,0 +1,2 @@
+Practice presentation
+Thinking the design pattern of our architecture 
