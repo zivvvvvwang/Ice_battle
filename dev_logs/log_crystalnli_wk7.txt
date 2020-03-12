@@ -1,0 +1,5 @@
+Student name: 101058609
+Student number: Ruo Nan Li
+
+Wednesday: Practiced presentation in group meeting
+Friday: reviewed the requirement of development and start implementing multiple rounds.
