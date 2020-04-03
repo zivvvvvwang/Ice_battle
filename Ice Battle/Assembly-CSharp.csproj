@@ -73,9 +73,8 @@
     <Compile Include="Assets\Cartoon\script\CartoonStars.cs" />
     <Compile Include="Assets\Cartoon\script\CartoonToggle.cs" />
     <Compile Include="Assets\Cartoon\script\CartoonVertSlide.cs" />
-    <Compile Include="Assets\Cartoon\ui\stars\big stars\NewBehaviourScript.cs" />
-    <Compile Include="Assets\Randomspawn.cs" />
     <Compile Include="Assets\script\BackgroundChange.cs" />
+    <Compile Include="Assets\script\BackgroundCheck.cs" />
     <Compile Include="Assets\script\CollisionCheck.cs" />
     <Compile Include="Assets\script\control_music.cs" />
     <Compile Include="Assets\script\ControlPlayer.cs" />
@@ -89,6 +88,7 @@
     <Compile Include="Assets\script\Player.cs" />
     <Compile Include="Assets\script\Prop.cs" />
     <Compile Include="Assets\script\PunishmentScript.cs" />
+    <Compile Include="Assets\script\Randomspawn.cs" />
     <Compile Include="Assets\script\Restart_Game.cs" />
     <Compile Include="Assets\script\Score.cs" />
     <Compile Include="Assets\script\ScoreScript.cs" />
@@ -98,25 +98,25 @@
     <Compile Include="Assets\script\Timer.cs" />
     <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Editor">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/Editor.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/Editor.dll</HintPath>
     </Reference>
     <Reference Include="XiaomiSupport">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.16f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,19 +323,19 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.16f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="ChannelPurchase">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
     </Reference>
     <Reference Include="UnityStore">
-      <HintPath>/Users/akiya/Desktop/3004/3004/Sudo_winter3004-master-2/Ice Battle/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
+      <HintPath>/Users/akiya/Downloads/Sudo_winter3004-crystald4/Ice Battle/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.16f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

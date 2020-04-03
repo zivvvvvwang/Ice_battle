@@ -23,13 +23,14 @@ public class Prop : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.gameObject.CompareTag("Player"))
         {
             Destroy(this.gameObject);
-            player = collision.GetComponent<ControlSprites1>();
-            player.isActiveAndEnabled = true;
+            collision.gameObject.SetActive(true);
+           // player.isActiveAndEnabled = true;
             waitAndPrint(1);
-            player.isActiveAndEnabled = false;
+            collision.gameObject.SetActive(false);
+            //player.isActiveAndEnabled = false;
 
         }
     }

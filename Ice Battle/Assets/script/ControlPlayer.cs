@@ -22,14 +22,14 @@ public class ControlPlayer : MonoBehaviour
     public void click()
     {
 
-        player.isActiveAndEnabled = true;
-        Debug.Log(player.isActiveAndEnabled);
+        player.stopRotate = true;
+        Debug.Log(player.stopRotate);
         //player.rb.AddForce(player.transform.up * thrust);
     }
 
     public void unclic()
     {
-        player.isActiveAndEnabled = false;
+        player.stopRotate = false;
     }
     // Update is called once per frame
     void Update()

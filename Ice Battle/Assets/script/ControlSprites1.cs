@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +6,7 @@ using UnityEngine.UI;
 public class ControlSprites1 : MonoBehaviour
 {
     //public GameObject character;
-    public bool isActiveAndEnabled = false;
+    public bool stopRotate = false;
     public bool pause;
     public Vector3 direction;
     public int score;
@@ -21,7 +20,7 @@ public class ControlSprites1 : MonoBehaviour
     //tart is called before the first frame update
     void Start()
     {
-        isActiveAndEnabled = false;
+        stopRotate = false;
         pause = false;
         score = 0;
         acc = 0;
@@ -49,15 +48,9 @@ public class ControlSprites1 : MonoBehaviour
             GameObject.Find("Mago").SetActive(false);
         }
     }
-
-    internal void SetActive(bool v)
-    {
-        throw new NotImplementedException();
-    }
-
     public void click()
     {
-        isActiveAndEnabled = true;
+        stopRotate = true;
         acc += 1f;
         
         
@@ -74,7 +67,7 @@ public class ControlSprites1 : MonoBehaviour
     }
     public void unclick()
     {
-        isActiveAndEnabled = false;
+        stopRotate = false;
         if (acc > 0)
         {
             acc -= 0.9f;
@@ -89,11 +82,11 @@ public class ControlSprites1 : MonoBehaviour
         //stopRotate = false;
         //direction = GetComponent<ControlPlayer>().d;
         //Debug.Log("s" + direction);
-        if (!isActiveAndEnabled)
+        if (!stopRotate)
         {
             transform.Rotate(0f, 0f, 1f);
         }
-        if (isActiveAndEnabled && !pause)
+        if (stopRotate && !pause)
         {
             angle = transform.eulerAngles.z;
             a = (angle * Mathf.PI) / 180 -80;
