@@ -2,95 +2,190 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float player_number;//import player number
+    public float playerNumber;//import player number
 
     //import player name
-    public string bear_name, walrus_name, husky_name, penguin_name, s;
-    public GameObject bear, walrus, husky, penguin;
-   
-    Text bear_score, walrus_score, husky_score, penguin_score;
-    public int p1score, p2score, p3score, p4score;
+    private string  p1name,p2name,p3name,p4name;
+    private int p1score,p2score,p3score,p4score;
+    public static int p1s, p2s, p3s, p4s;
+    public GameObject player1, player2, player3, player4;
+    Text p1Score, p1Name, p2Score, p2Name, p3Score, p3Name, p4Score, p4Name;
+    public int mode;
+    public static int round = 0;
 
+    // Start is called before the first frame update
     void Start()
     {
-        
-        player_number = Set_player_number.numberSliderGet;
+        mode = 2;
 
-        bear_name = Get_player_name.p1name;
-        walrus_name = Get_player_name.p2name;
-        husky_name = Get_player_name.p3name;
-        penguin_name = Get_player_name.p4name;
+        playerNumber = Set_player_number.numberSliderGet;
+   
+        if (playerNumber < 4)
+        {
+            GameObject.Find("player4").SetActive(false);
+            if (playerNumber < 3)
+            {
+                GameObject.Find("player3").SetActive(false);
+                if (playerNumber < 2)
+                {
+                    GameObject.Find("player2").SetActive(false);
+                }
+            }
+        }
+        if (round == 2) {
+            GameObject.Find("AgainButton").SetActive(false);
+        }
+
+
+        if (playerNumber > 0)
+        {
+         
+            p1name = Get_player_name.p1name;
+            p1score = Score.p1s;
+            p1Score = GameObject.Find("player1_score").GetComponent<Text>();
+            p1Name = GameObject.Find("player1_name").GetComponent<Text>();
+       
+            if (p1s == 0)
+            {
+                p1s = p1score;
+            }
+            else
+            {
+                p1s += p1score;
+            }
+    
+        }
+
+        if (playerNumber > 1)
+        {
+      
+            p2name = Get_player_name.p2name;
+            p2score = Score.p2s;
+            p2Score = GameObject.Find("player2_score").GetComponent<Text>();
+            p2Name = GameObject.Find("player2_name").GetComponent<Text>();
+         
+            if (p2s == 0)
+            {
+                p2s = p2score;
+            }
+            else
+            {
+                p2s += p2score;
+            }
+   
+        }
+
+        if (playerNumber > 2)
+        {
+            p3Name = GameObject.Find("player3_name").GetComponent<Text>();
+            p3Score = GameObject.Find("player3_score").GetComponent<Text>();
+            p3name = Get_player_name.p3name;
+            p3score = Score.p3s;
+            if (p3s == 0)
+            {
+                p3s = p3score;
+            }
+            else
+            {
+                p3s += p3score;
+            }
  
-        p1score = 1111;
-        p2score = 22222;
-        p3score = 333;
-        p4score = 4444;
-
-        bear.SetActive(true);
-        walrus.SetActive(true);
-        husky.SetActive(true);
-        penguin.SetActive(true);
-
-        if (player_number == 1)
-        {
-            walrus.SetActive(false);
-            husky.SetActive(false);
-            penguin.SetActive(false);
-            bear_score = GameObject.Find("player_bear_score").GetComponent<Text>();
-        }
-        else if (player_number == 2)
-        {
-            husky.SetActive(false);
-            penguin.SetActive(false);
-            bear_score = GameObject.Find("player_bear_score").GetComponent<Text>();
-            walrus_score = GameObject.Find("player_walrus_score").GetComponent<Text>();
-        }
-        else if (player_number == 3)
-        {
-            penguin.SetActive(false);
-            bear_score = GameObject.Find("player_bear_score").GetComponent<Text>();
-            walrus_score = GameObject.Find("player_walrus_score").GetComponent<Text>();
-            husky_score = GameObject.Find("player_husky_score").GetComponent<Text>();
         }
 
-        //setup score of each palyer
-        bear_score = GameObject.Find("player_bear_score").GetComponent<Text>();
-        walrus_score = GameObject.Find("player_walrus_score").GetComponent<Text>();
-        husky_score = GameObject.Find("player_husky_score").GetComponent<Text>();
-        penguin_score = GameObject.Find("player_penguin_score").GetComponent<Text>();
+        if (playerNumber > 3)
+        {
+            p4name = Get_player_name.p4name;
+            p4score = Score.p4s;
+
+            p4Name = GameObject.Find("player4_name").GetComponent<Text>();
+            p4Score = GameObject.Find("player4_score").GetComponent<Text>();
+        
+            if (p4s == 0)
+            {
+                p4s = p4score;
+            }
+            else
+            {
+                p4s += p4score;
+            }
+          
+        }
     }
 
+    private void Awake()
+    {
+        Button continueButton = GameObject.Find("AgainButton").GetComponent<Button>() as Button;
+        continueButton.onClick.AddListener(conClick);
+
+    }
     // Update is called once per frame
     void Update()
     {
-        s = "{0:-15}: {1,15}";
-        p1score = Score.p1s;
-        p2score = Score.p2s;
-        p3score = Score.p3s;
-        p4score = Score.p4s;
-        Debug.Log("pppppp" + p1score);
-        if (player_number == 1)
+       
+        //setup score of each palyer
+        if (playerNumber > 0)
         {
-            bear_score.text = string.Format(s, bear_name, p1score);
-        }else if (player_number == 2)
-        {
-            bear_score.text = string.Format(s, bear_name, p1score);
-            walrus_score.text = string.Format(s, walrus_name, p2score);
-        }else if (player_number == 3)
-        {
-            bear_score.text = string.Format(s, bear_name, p1score);
-            walrus_score.text = string.Format(s, walrus_name, p2score);
-            husky_score.text = string.Format(s, husky_name, p3score);
-        }else {
-            bear_score.text = string.Format(s, bear_name, p1score);
-            walrus_score.text = string.Format(s, walrus_name, p2score);
-            husky_score.text = string.Format(s, husky_name, p3score);
-            penguin_score.text = string.Format(s, penguin_name, p4score);
+        
+            p1Score.text = p1score.ToString();
+            p1Name.text = p1name;
+          
+            Debug.Log("P1SSSS");
+            Debug.Log(p1score);
+            Debug.Log(p1s);
         }
 
+        if (playerNumber > 1)
+        {
+         
+            p2Score.text = p2score.ToString();
+            p2Name.text = p2name;
+       
+            Debug.Log("P2SSSS");
+            Debug.Log(p2score);
+            Debug.Log(p2s);
+        }
+
+        if (playerNumber > 2)
+        {
+           
+            
+            p3Score.text = p3score.ToString();
+            p3Name.text = p3name;
+            
+            Debug.Log("P3SSSS");
+            Debug.Log(p3score);
+            Debug.Log(p3s);
+        }
+
+        if (playerNumber > 3)
+        {
+          
+            p4Score.text = p4score.ToString();
+            p4Name.text = p4name;
+         
+            Debug.Log("P4SSSS");
+            Debug.Log(p4score);
+            Debug.Log(p4s);
+        }
+
+
+        Debug.Log("Round::::");
+        Debug.Log(round);
     }
+    void conClick() {
+        print("Again Button Click");
+
+        if (mode == 1) { 
+            SceneManager.LoadScene("InGamePlay");
+        }
+        else {
+            SceneManager.LoadScene("InGamePlay");
+        }
+        round += 1;
+    }
+
 }
