@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/punishment.unity
+- path: Assets/Scenes/Main_page.unity
   isLoaded: 1
   isActive: 1
