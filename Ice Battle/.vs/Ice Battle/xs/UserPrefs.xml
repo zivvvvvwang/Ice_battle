@@ -1,30 +1,25 @@
 ﻿<Properties StartupConfiguration="{E0B65C21-5C68-FDDB-2B9A-2624E1002E7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/ControlSprites1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/FinalScore.cs">
     <Files>
-      <File FileName="Assets/script/CollisionCheck.cs" Line="44" Column="78" IsPinned="True" />
-      <File FileName="Assets/script/SettlementScript.cs" />
-      <File FileName="Assets/script/PunishmentScript.cs" />
-      <File FileName="Assets/script/ScoreScript.cs" />
-      <File FileName="Assets/script/Get_player_name.cs" />
-      <File FileName="Assets/script/Player.cs" />
-      <File FileName="Assets/script/Menu_button.cs" />
-      <File FileName="Assets/script/ControlPlayer.cs" />
-      <File FileName="Assets/script/BackgroundChange.cs" />
-      <File FileName="Assets/script/Score.cs" />
-      <File FileName="Assets/script/Set_player_number.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" Line="40" Column="1" />
-      <File FileName="Assets/script/ControlSprites1.cs" Line="47" Column="1" />
-      <File FileName="Assets/Cartoon/script/CartoonToggle.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonVertSlide.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonAchievement.cs" />
-      <File FileName="Assets/CasualGameBGM05/ReadMe.txt" />
-      <File FileName="Assets/script/control_music.cs" />
-      <File FileName="Assets/script/Timer.cs" />
+      <File FileName="Assets/script/Timer.cs" Line="38" Column="6" />
+      <File FileName="Assets/script/CollisionCheck.cs" Line="34" Column="15" />
+      <File FileName="Assets/script/FinalScore.cs" Line="124" Column="38" />
+      <File FileName="Assets/script/ScoreScript.cs" Line="41" Column="1" />
+      <File FileName="Assets/script/ScoreScript1.cs" Line="80" Column="30" />
+      <File FileName="Assets/script/Score.cs" Line="10" Column="42" />
+      <File FileName="Assets/script/nextRound.cs" Line="4" Column="1" />
+      <File FileName="Assets/script/Restart_Game.cs" Line="17" Column="6" />
+      <File FileName="Assets/script/Player.cs" Line="18" Column="1" />
+      <File FileName="Assets/script/ControlPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Set_player_number.cs" Line="24" Column="1" />
+      <File FileName="Assets/script/getPlayerNum.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Menu_button.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/SettlementScript.cs" Line="35" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07d6e000-a4ec-4ebb-b421-94ff71c6cd74" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2ccd960f-8727-4f43-b476-4bbe5fbb9e04" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

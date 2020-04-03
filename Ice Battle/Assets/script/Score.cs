@@ -9,8 +9,6 @@ public class Score : MonoBehaviour
     public Text score_text;
     public static int p1s, p2s, p3s, p4s;
 
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +30,12 @@ public class Score : MonoBehaviour
         else if (player.name == "Gueirreiro")
         {
             p3s = player.gameObject.GetComponent<ControlSprites1>().score / 10;
+
         }
         else
         {
             p4s = player.gameObject.GetComponent<ControlSprites1>().score / 10;
+
         }
 
     }

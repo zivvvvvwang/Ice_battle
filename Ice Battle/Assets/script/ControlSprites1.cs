@@ -16,7 +16,7 @@ public class ControlSprites1 : MonoBehaviour
     private float vel = 1;
     private float playerNum;
     
-
+    public 
     //tart is called before the first frame update
     void Start()
     {
