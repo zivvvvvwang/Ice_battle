@@ -22,6 +22,10 @@ public class control_music : MonoBehaviour
         }
         
     }
+    public void back_to_menu()
+    {
+        AudioListener.pause = false;
+    }
     
 
     // Update is called once per frame

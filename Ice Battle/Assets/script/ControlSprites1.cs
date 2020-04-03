@@ -8,6 +8,7 @@ public class ControlSprites1 : MonoBehaviour
     //public GameObject character;
     public bool stopRotate = false;
     public bool pause;
+    public bool canMove;
     public Vector3 direction;
     public int score;
     private float angle;
@@ -22,6 +23,7 @@ public class ControlSprites1 : MonoBehaviour
     {
         stopRotate = false;
         pause = false;
+        canMove = true;
         score = 0;
         acc = 0;
         playerNum = Set_player_number.numberSliderGet;
@@ -53,14 +55,17 @@ public class ControlSprites1 : MonoBehaviour
         stopRotate = true;
         acc += 1f;
         
+        
     }
     public void check()
     {
         pause = true;
+        Time.timeScale = 0;
     }
     public void uncheck()
     {
         pause = false;
+        Time.timeScale = 1;
     }
     public void unclick()
     {
@@ -69,6 +74,7 @@ public class ControlSprites1 : MonoBehaviour
         {
             acc -= 0.9f;
         }
+        
         
         
     }
@@ -82,7 +88,7 @@ public class ControlSprites1 : MonoBehaviour
         {
             transform.Rotate(0f, 0f, 1f);
         }
-        if (stopRotate && !pause)
+        if (canMove && stopRotate && !pause)
         {
             angle = transform.eulerAngles.z;
             a = (angle * Mathf.PI) / 180 -80;

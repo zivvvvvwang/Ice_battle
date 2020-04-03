@@ -24,9 +24,9 @@ public class CollisionCheck : MonoBehaviour
     {
         if (collision.gameObject.name == "dropdown_cyan")
         {
-            
+            this.gameObject.GetComponent<ControlSprites1>().score -= 100;
             this.gameObject.SetActive(false);
-            this.gameObject.GetComponent<ControlSprites1>().score -= 5;
+            
             player_score -= 1;
             
             if (player_score == 1 || player_score == 0)
@@ -41,7 +41,7 @@ public class CollisionCheck : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         //Debug.Log("1");
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && gameObject.tag == "Player")
         {
             //collision.gameObject.transform.position += this.gameObject.GetComponent
             //collision.gameObject.transform.position += gameObject.GetComponent<ControlSprites1>().direction * 0.3f;

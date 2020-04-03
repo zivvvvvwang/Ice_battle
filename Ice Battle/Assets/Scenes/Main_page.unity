@@ -3243,7 +3243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0010986328, y: -0.0006713867}
+  m_AnchoredPosition: {x: 0.0010986328, y: -0.0007324219}
   m_SizeDelta: {x: -878.46, y: -483.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481669306
@@ -3686,8 +3686,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1735251227}
-        m_MethodName: start_button
-        m_Mode: 5
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6895,7 +6895,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.33333334, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
@@ -6917,7 +6917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4f13f4cec3943e74ebd32e3cca7a779c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fcac27b5360021b4d88e4bd641218b4e, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7726,6 +7726,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  modelNumber: 0
   animationTime: 0.25
 --- !u!224 &4336236342477427904
 RectTransform:
@@ -8482,10 +8483,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 4336236342175296552}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 1
+  m_MinValue: 2
   m_MaxValue: 4
   m_WholeNumbers: 1
-  m_Value: 2
+  m_Value: 3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8588,7 +8589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f073f99f5e752c47b9ae3a2ae98eaa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8db7f2d01ada451a936e74fda080951, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8618,6 +8619,7 @@ GameObject:
   - component: {fileID: 4336236343439072337}
   - component: {fileID: 4336236343439072336}
   - component: {fileID: 4336236343439072343}
+  - component: {fileID: 4336236343439072344}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -8641,7 +8643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -95, y: 0}
+  m_AnchoredPosition: {x: -119, y: 16}
   m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &4336236343439072343
@@ -8659,6 +8661,25 @@ MonoBehaviour:
   m_EffectColor: {r: 0.427451, g: 0.45882356, b: 0.5529412, a: 1}
   m_EffectDistance: {x: 3, y: -7}
   m_UseGraphicAlpha: 1
+--- !u!95 &4336236343439072344
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336236343439072341}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 202135c919c9a446287228948ed94e0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4336236343480847432
 GameObject:
   m_ObjectHideFlags: 0
@@ -9037,8 +9058,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.1, y: 518.51}
-  m_SizeDelta: {x: 1328.9, y: 291.32}
+  m_AnchoredPosition: {x: -62, y: 535.08}
+  m_SizeDelta: {x: 1301.1, y: 287.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4336236343494465622
 MonoBehaviour:
@@ -9306,6 +9327,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  modelNumber: 0
   animationTime: 0.3
 --- !u!1 &4336236343551021427
 GameObject:
@@ -11089,6 +11111,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  modelNumber: 0
   animationTime: 0.25
 --- !u!114 &5567686803700684194
 MonoBehaviour:
@@ -12019,6 +12042,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  modelNumber: 0
   animationTime: 0.3
 --- !u!224 &5567686804715085656
 RectTransform:

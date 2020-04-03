@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class CartoonDropdown : MonoBehaviour
 {
     public AnimationCurve curve;
-
+    public static int modelNumber;
     public float animationTime = 0.25f;
 
     private RectTransform content;
@@ -23,13 +23,14 @@ public class CartoonDropdown : MonoBehaviour
     private Text pops;
     private Text down;
 
-    private int modelNumber;
+    
     //-------
     private void Start()
     {
         nomal = GameObject.Find("nomalMode").GetComponent<Text>();
         pops = GameObject.Find("popMode").GetComponent<Text>();
         down = GameObject.Find("display").GetComponent<Text>();
+        modelNumber = 0;
         
     }
 
@@ -72,7 +73,7 @@ public class CartoonDropdown : MonoBehaviour
 
             yield return null;
 
-            eTime += Time.deltaTime;
+            eTime += Time.unscaledDeltaTime;
 
         }
 
@@ -100,15 +101,16 @@ public class CartoonDropdown : MonoBehaviour
     public void changeNomalContext()
     {
         down.text = nomal.text;
-       // GetComponent<Model_Static_value>().model_choose(0);
-//        modelNumber.model_choose(0);
-        Debug.Log(modelNumber);
+        // GetComponent<Model_Static_value>().model_choose(0);
+        modelNumber = 1;
+        Debug.Log("normal: " + modelNumber);
         //StartCoroutine("SlideUp");
     }
     public void changePopContext()
     {
         down.text = pops.text;
- //       modelNumber.model_choose(1);
+        modelNumber = 2;
+        Debug.Log("prop: " + modelNumber);
         //StartCoroutine("SlideUp");
     }
 }
