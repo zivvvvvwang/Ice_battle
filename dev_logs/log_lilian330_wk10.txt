@@ -1,0 +1,7 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+March 23 Monday: Discuss the part of the program that needs to be implemented and assigned tasks.  -3h
+March 25 Wednesday: Group meeting: Communicate the current completion progress of their respective tasks.  -- 3h
