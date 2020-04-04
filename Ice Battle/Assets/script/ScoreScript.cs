@@ -20,7 +20,7 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mode = 2;
+        mode = CartoonDropdown.modelNumber;
 
         playerNumber = Set_player_number.numberSliderGet;
    
@@ -183,7 +183,7 @@ public class ScoreScript : MonoBehaviour
             SceneManager.LoadScene("InGamePlay");
         }
         else {
-            SceneManager.LoadScene("InGamePlay");
+            SceneManager.LoadScene("expert");
         }
         round += 1;
     }
