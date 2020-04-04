@@ -1,5 +1,8 @@
-Thursday: Realize the velocity on current direction, 
-          Realize timer display on the screen.
-          Realize collision bewteen players. 
+Thursday: Realize the velocity on the current direction, 
+          Realize the timer display on the screen.
+          Realize collision between players. 
+          Realize the score display on the button. (score will increase through the timing)
           
-Weekend: 
+Weekend:  The number of game characters can be changed according to the number of players. 
+          Provides the score to the following score & punishment scene. 
+          
