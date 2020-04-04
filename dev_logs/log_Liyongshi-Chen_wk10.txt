@@ -1,0 +1,9 @@
+Wed. Group meeting. Asking for change the frozen prop to the bomb prop, cuz the frozen one is hard to develop since the button
+                    and controller is indepened with the collision check between character and prop.
+                    Change the prop to the bomb and start to work on it.
+Fri. Approch the goal of bomb prop and reback to the bug of random location.
+
+Weekend. Complete all of designs for UI
+         Fixed the bug of random location by random the x and y of vector directly instead of setted location from Transform.
+         Start working on the document
+                 
