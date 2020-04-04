@@ -1,4 +1,6 @@
-Wed. Continue to fix the known bug, trying to using another way to identify the location setted on the scene. 
+Wed. Continue to fix the known bug, 
+     Group meeting,
+     trying to using another way to identify the location setted on the scene. 
 
 Fri. Fixed the bug and start to working on the function of props
 
