@@ -1,2 +1,9 @@
-Wednesday: Group meeting, talk about Delivery 2, Components diagram.
-Thusday: learn components diagram and create a demo components diagram. 
+Wednesday: Group meeting:
+                Discussion on deliverable 2.
+                Communicate current work progress, solve some difficulties.
+                
+Thursday: Learn components diagram from lecture notes and internet.
+         Create a demo components diagram. 
+         
+Weekend: Realized characters can rotate automatically.
+         Realized characters can move forword through player press button. 
