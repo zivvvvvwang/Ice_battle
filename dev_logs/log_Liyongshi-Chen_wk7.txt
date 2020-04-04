@@ -1,4 +1,5 @@
 Wed. Group meeting. Practice presentation together
-Fri. Thinking the design pattern of our architecture 
+Fri. Searching and learning the setting of props 
 
-Weekend. Looking the details of each design pattern and trying to find the suitable one
+Weekend. Developing the random index of props.
+         Found the bug that props will disppear probably during the game and trying to fix
