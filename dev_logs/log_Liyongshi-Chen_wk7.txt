@@ -1,2 +1,4 @@
-Practice presentation
-Thinking the design pattern of our architecture 
+Wed. Group meeting. Practice presentation together
+Fri. Thinking the design pattern of our architecture 
+
+Weekend. Looking the details of each design pattern and trying to find the suitable one
