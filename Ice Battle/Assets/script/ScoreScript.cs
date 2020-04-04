@@ -20,7 +20,8 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mode = CartoonDropdown.modelNumber;
+        //mode = CartoonDropdown.modelNumber;
+        mode = 1;
 
         playerNumber = Set_player_number.numberSliderGet;
    

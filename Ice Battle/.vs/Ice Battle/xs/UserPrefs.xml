@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{E0B65C21-5C68-FDDB-2B9A-2624E1002E7D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/ScoreScript.cs">
     <Files>
-      <File FileName="Assets/script/CollisionCheck.cs" Line="14" Column="28" IsPinned="True" />
-      <File FileName="Assets/script/SettlementScript.cs" />
-      <File FileName="Assets/script/PunishmentScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/ScoreScript.cs" Line="21" Column="17" />
+      <File FileName="Assets/script/CollisionCheck.cs" Line="19" Column="10" IsPinned="True" />
+      <File FileName="Assets/script/ScoreScript.cs" Line="23" Column="46" />
+      <File FileName="Assets/Cartoon/script/CartoonVertSlide.cs" Line="26" Column="14" />
+      <File FileName="Assets/script/FinalScore.cs" Line="142" Column="40" />
       <File FileName="Assets/script/BackgroundChange.cs" />
       <File FileName="Assets/script/Score.cs" />
       <File FileName="Assets/script/Set_player_number.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" Line="24" Column="23" />
-      <File FileName="Assets/script/ControlSprites1.cs" />
       <File FileName="Assets/Cartoon/script/CartoonToggle.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonVertSlide.cs" />
       <File FileName="Assets/Cartoon/script/CartoonAchievement.cs" />
       <File FileName="Assets/CasualGameBGM05/ReadMe.txt" />
       <File FileName="Assets/script/control_music.cs" />
       <File FileName="Assets/script/Timer.cs" />
       <File FileName="Assets/script/Prop.cs" />
       <File FileName="Assets/script/SpeedUp.cs" />
+      <File FileName="Assets/script/Randomspawn.cs" Line="22" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -9985,10 +9985,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b1e242d7b7114b6896ba2ec7b5a08bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stopRotate: 0
-  pause: 0
-  direction: {x: 0, y: 0, z: 0}
-  score: 0
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &2020304906
 AudioSource:
   m_ObjectHideFlags: 0
