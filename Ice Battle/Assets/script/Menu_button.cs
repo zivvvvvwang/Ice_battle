@@ -12,6 +12,25 @@ public class Menu_button : MonoBehaviour
     {
         SceneManager.LoadScene(scenesName);
     }
+    public int mode;
+    void Start()
+    {
+        mode = CartoonDropdown.modelNumber;
+        Debug.Log("the scene:" + mode);
+    }
+    public void Click()
+    {
+        Debug.Log("click"+mode);
+        if (mode == 1)
+        {
+            Debug.Log("aaaaa");
+            SceneManager.LoadScene("InGamePlay");
+        }
+        else if (mode == 2)
+        {
+            Debug.Log("bbbbb");
+            SceneManager.LoadScene("expert");
+        }
+    }
 
-    
 }

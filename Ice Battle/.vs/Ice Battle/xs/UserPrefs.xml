@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{E0B65C21-5C68-FDDB-2B9A-2624E1002E7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/SpeedUp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Menu_button.cs">
     <Files>
-      <File FileName="Assets/script/CollisionCheck.cs" Line="41" Column="50" IsPinned="True" />
+      <File FileName="Assets/script/CollisionCheck.cs" Line="14" Column="28" IsPinned="True" />
       <File FileName="Assets/script/SettlementScript.cs" />
       <File FileName="Assets/script/PunishmentScript.cs" />
-      <File FileName="Assets/script/ScoreScript.cs" />
+      <File FileName="Assets/script/ScoreScript.cs" Line="23" Column="17" />
       <File FileName="Assets/script/Get_player_name.cs" />
-      <File FileName="Assets/script/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/Menu_button.cs" />
+      <File FileName="Assets/script/Player.cs" />
+      <File FileName="Assets/script/Menu_button.cs" Line="1" Column="1" />
       <File FileName="Assets/script/ControlPlayer.cs" />
       <File FileName="Assets/script/BackgroundChange.cs" />
       <File FileName="Assets/script/Score.cs" />
       <File FileName="Assets/script/Set_player_number.cs" />
       <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" />
-      <File FileName="Assets/script/ControlSprites1.cs" Line="17" Column="29" />
+      <File FileName="Assets/script/ControlSprites1.cs" />
       <File FileName="Assets/Cartoon/script/CartoonToggle.cs" />
       <File FileName="Assets/Cartoon/script/CartoonVertSlide.cs" />
       <File FileName="Assets/Cartoon/script/CartoonAchievement.cs" />
       <File FileName="Assets/CasualGameBGM05/ReadMe.txt" />
       <File FileName="Assets/script/control_music.cs" />
       <File FileName="Assets/script/Timer.cs" />
-      <File FileName="Assets/script/Prop.cs" Line="37" Column="2" />
-      <File FileName="Assets/script/SpeedUp.cs" Line="27" Column="17" />
+      <File FileName="Assets/script/Prop.cs" />
+      <File FileName="Assets/script/SpeedUp.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,20 +29,17 @@
           <Node name="Ice Battle" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="script" expanded="True">
-                <Node name="SpeedUp.cs" selected="True" />
+                <Node name="Menu_button.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fe7053fb-d496-4909-85cb-2058f0f55ba2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="21d8fac5-6fd3-41d2-863e-968c99ab797f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

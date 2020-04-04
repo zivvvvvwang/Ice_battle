@@ -1301,6 +1301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7380d6aafc07c47d2909841c8d0bb7a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3686,8 +3687,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1735251227}
-        m_MethodName: start_button
-        m_Mode: 5
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3743,6 +3744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7380d6aafc07c47d2909841c8d0bb7a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
 --- !u!1 &1811308637
 GameObject:
   m_ObjectHideFlags: 0
