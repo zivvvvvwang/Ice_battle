@@ -1,2 +1,11 @@
-Tuesday: Add backgroud music in the game play page, user can click music buttton to pause/play background music. 
-         Add the developer information on the game page. 
+Tuesday: 
+Add the developer's information on the game page. 
+
+Wednesday:
+Group meeting Assign work for group member (after D3 before D4)
+         Ziwen Wang:     Optimize the structure of the code. 
+                         Add UI of punishment (optional)
+         Lilian Wang:    Add multi-round game options. 
+         Liyongshi Chen: Add expert mode base on the normal mode. 
+         Ruonan Li:      Optimize the collision check
+                         Add border check between characters and devices
