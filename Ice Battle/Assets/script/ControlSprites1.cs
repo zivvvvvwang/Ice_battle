@@ -102,7 +102,7 @@ public class ControlSprites1 : MonoBehaviour
 
             
         }
-        Debug.Log(gameObject.name + ": " + score % 2);
+       // Debug.Log(gameObject.name + ": " + score % 2);
 
     }
 }

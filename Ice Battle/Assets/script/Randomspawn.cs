@@ -9,7 +9,7 @@ public class Randomspawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float x = Random.Range(-8f, 8f);
+        float x = Random.Range(-7f, 7f);
         float y = Random.Range(-3f, 3f);
         Instantiate(prop, new Vector3(x, y, 0f), Quaternion.identity);
     }
