@@ -1,2 +1,5 @@
-Practice presentation
-Thinking the design pattern of our architecture 
+Wed. Group meeting. Practice presentation together
+Fri. Searching and learning the setting of props 
+
+Weekend. Developing the random index of props.
+         Found the bug that props will disppear probably during the game and trying to fix

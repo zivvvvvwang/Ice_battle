@@ -1,0 +1,9 @@
+Wed. Continue to fix the known bug, 
+     Group meeting,
+     trying to using another way to identify the location setted on the scene. 
+
+Fri. Fixed the bug and start to working on the function of props
+
+Weekend. Continue to working on the function of props
+         Approch the goal of speed up prop
+         Design UI of props

@@ -1,0 +1,8 @@
+Wed. Group meeting.
+     Start to work on the frozen prop, but strugged with control the button
+Fri. Continue to work on the frozen prop, trying to control the character directly.
+     
+Weekend.Approch the purpose to make the character to stop, but get bugs with monobehavior, cuz controling the character is actually 
+        doing the control of monobehavior which is not good...
+        Continue to design the UI and complete the design of finish and restart buttons
+     

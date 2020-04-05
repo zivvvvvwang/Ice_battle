@@ -1,2 +1,6 @@
-Thr.start to working on Unity
-Fri.update read me file
+Wed. Group meeting to learn how to build the environment of Android and Unity
+Thr. start to working on Unity
+Fri. update README file and adding details about the project
+
+Weekend. Learning the basic operating of Unity from webs and tutorials
+         Building the environment and testing sample project for familiar with operation sucessfully.
