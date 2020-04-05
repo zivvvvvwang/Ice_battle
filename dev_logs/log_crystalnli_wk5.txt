@@ -1,6 +1,9 @@
 Student name: Ruo Nan Li
 Student number : 101058609
 
-Wednesday: Reviewed project proposal and discussed about the taskes assigned to each grop member in the group meeting. Add button in the character name selection page to go to next page.
+Wednesday: Reviewed project proposal
+	Discussed about the taskes assigned to each grop member in the group meeting. 
+	Added button in the character name selection page to go to next page.
 
-Saturday: Add character picture in the character name selection page, add script to disable extra input boxs based on the number of players.
+Saturday: Added character picture in the character name selection page, 
+	Added script to disable extra input boxs based on the number of players.

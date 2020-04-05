@@ -1,0 +1,12 @@
+Student name: Ruo Nan Li
+Student number: 101058609
+
+Wendesday: Joined group meeting and review project progress with group member.
+	fixed UI bug in the character selection page
+
+Thursday: Create Class diagram of the project
+	worked on the decumentation for delivery 3
+	Implemented player name function to get player name from user input 
+
+Sunday: Fixed UI bug in the character selection page
+
