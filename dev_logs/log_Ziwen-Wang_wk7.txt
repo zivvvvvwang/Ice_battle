@@ -1,2 +1,0 @@
-Tuesday: Add backgroud music in the game play page, user can click music buttton to pause/play background music. 
-         Add the developer information on the game page. 

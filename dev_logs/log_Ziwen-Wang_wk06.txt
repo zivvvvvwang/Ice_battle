@@ -1,0 +1,12 @@
+Wednesday: 
+Fix some bug in game. 
+Finish inGamePlay secens(only normal mode) 
+
+Thursday:
+Realize pause/play during the game
+Realize retry the game
+Realize play/pause background music
+
+Weekend:
+Combine all the scences from other team member, and test on phone, find and fix some bugs.
+Group to write status report which is the delivable 2. 

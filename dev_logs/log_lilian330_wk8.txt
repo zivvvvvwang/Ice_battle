@@ -1,0 +1,13 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+March 11 Wednesday: Group meeting:
+  Discussion about the writing of documentation of D3(System Architecture and Design).  -- 3h
+
+March 13 Friday:
+  Working on the Design part of the D3 document. --2h
+
+March 15 Sunday:
+  Review and discussing with teammates with the document of System Architecture and Design. -- 3h

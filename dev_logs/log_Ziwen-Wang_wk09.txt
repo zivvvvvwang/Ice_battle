@@ -1,0 +1,9 @@
+Tuesday: Try to use panel and ScrollRect to implement this feature. 
+         Add new panel and scrollRect to the gameObject. 
+         Try to control scrollRect to roll the text. 
+         
+Wednexday: Group meeting 
+                   Discuss the punishment UI, existing features did not work as intended. 
+                   We decided to syop focusing on punishment UI aythoring. 
+                   I will  focus on code integration, structural adjustments, and project optimization on next few weeks. 
+         

@@ -1,0 +1,13 @@
+Tuesday: Fix known bugs. 
+
+Wednesday: Group meeting, discuss and decide the punishment UI 
+                          It will be kind of slot machines, only one line will be chosen,
+                          and text will roll random display a single line on the screen. 
+                        
+Weekend: Try to use ScrollView to implement infinity rolling. 
+         It will use UGUI or unity 3D to implement. 
+         (I have no idea about UGUI, because I did not have knowladge on this field.)
+         
+         
+         
+         

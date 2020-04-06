@@ -1,0 +1,12 @@
+Wednesday: Group meeting, learn how to make android project in Unity, 
+           confirm the project design pattern, overall structure and UML.
+           
+Thursday: Primary User Interface design, game structure construction. 
+
+Firday: Creat and design start page, (background is designed by Yonglishi chen)
+        Creat and design mode choice page (not work right now, some features are not implemented )
+
+Weekend: Implemented the function of controlling from start page(canvas) to mode choice(canvas) through the button. 
+         realized two modes can be chosen in the mode choice page. (feature are not working right now)
+         realized the user can choose the number of players. 
+         Adjust UI layout in the mode choice page. 

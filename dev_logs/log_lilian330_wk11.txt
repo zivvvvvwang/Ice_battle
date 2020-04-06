@@ -1,0 +1,8 @@
+Student name: Lilian Wang
+Student number: 101087269
+
+Work log:
+
+April 1 Wednesday: Group meeting: meeting with the D4 Demo  -- 3h
+April 3 Friday: Added the round function with the expert game mode.  --2h
+April 4 Saturday: Discussing and working on the Demo video and Document. -- 2h

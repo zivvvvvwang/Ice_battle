@@ -1,0 +1,11 @@
+Student name: Ruo Nan Li
+Student number: 101058609
+
+Monday: Started working on boundary check improment in the game scene
+	Created new object in Unity in order to add walls around the game scene
+	
+Wednesday: Discussed problems and progress in the group meeting 
+	Added box collider 2D to support collision check between players and walls
+	Created boundary check script to add events while the collision happens
+	
+Thursday: modified the script to make sure the player always stay in the game scene and can't leave the area surrounded by walls

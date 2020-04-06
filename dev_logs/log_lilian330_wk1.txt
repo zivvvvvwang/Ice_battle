@@ -3,5 +3,5 @@ Student number: 101087269
 
 Work log:
 
-Wednesday: Group meeting: Practice presentation.
-Friday: Learn about building apps for Android with Unity.
+Jan 22 Wednesday: Group meeting: Practice presentation.          --3h
+Jan 24 Friday: Learn about building apps for Android with Unity. --3h

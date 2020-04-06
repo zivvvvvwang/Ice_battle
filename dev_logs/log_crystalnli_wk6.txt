@@ -3,4 +3,5 @@ Student number: 101058609
 
 Monday: Modified script to store and transfer player name data to the score page.
 Thursday: Changed UI and added new background to make game style unified. 
+
 Friday: Modified demo description document

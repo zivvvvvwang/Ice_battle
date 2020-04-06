@@ -1,0 +1,16 @@
+Tuesday: The main structure of game has been completed, and the mineor bugs of last week has been fixed. 
+         Modularize the game and prepare to assign work to team members. 
+         
+Wedsday: Group meeting, Assigned work for each member. (before D3) 
+         Ziwen Wang:     Primary UI design.
+                         Normal mode in game
+         Lilian Wang:    Score & Punishment page in game
+         Liyongshi Chen: Secondary UI Design. 
+                         Expert mode in game (may be start later, because expert will base on normal mode)
+         Ruonan Li:      User customize characters. 
+                         Game testing. 
+         
+Weekend: Create & design a normal mode scene. 
+         Add four sprites which are four characters in the game. 
+         Add four buttons on the four corners. 
+         Create scripts to implement each button to control each character. 
