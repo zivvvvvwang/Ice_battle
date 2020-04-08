@@ -24,6 +24,7 @@ public class ControlSprites1 : MonoBehaviour
         pause = false;
         score = 0;
         acc = 0;
+        Time.timeScale = 1;
         playerNum = Set_player_number.numberSliderGet;
         //playerNum = 4;
         if (playerNum == 1 && this.name == "Assassino")

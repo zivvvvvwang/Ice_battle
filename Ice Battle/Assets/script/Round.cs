@@ -14,8 +14,7 @@ public class Round : MonoBehaviour
     public void resetRound() { round = 1; }
     //public static int roundGet;
     private Text roundText;
-    //private int round;
-    // Start is called before the first frame update
+    
     void Start()
     {
   

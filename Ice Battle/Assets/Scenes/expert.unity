@@ -9518,7 +9518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -654, y: -7}
+  m_AnchoredPosition: {x: -654, y: -6.9999847}
   m_SizeDelta: {x: 121.7, y: 138}
   m_Pivot: {x: 1, y: 0}
 --- !u!1 &1877667565
@@ -9767,7 +9767,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: InGamePlay
+          m_StringArgument: expert
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1969907757
@@ -9842,7 +9842,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2020304898
 Transform:
@@ -10125,12 +10125,12 @@ GameObject:
   - component: {fileID: 2025012466}
   - component: {fileID: 2025012465}
   - component: {fileID: 2025012464}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &2025012462
 MonoBehaviour:

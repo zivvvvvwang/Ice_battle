@@ -33,4 +33,9 @@ public class Menu_button : MonoBehaviour
         }
     }
 
+    public void LoadScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
+
 }

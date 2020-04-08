@@ -1,10 +1,11 @@
 Android
 PlayerPath?
-/Users/aki/Desktop/ziv/test_main.apk
+/Users/aki/Downloads/Ice_battle-master/Ice Battle/ice battle.apk
 SceneListBegin?
 Assets/Scenes/Main_page.unity
 Assets/Scenes/InGamePlay.unity
 Assets/Scenes/punishment.unity
+Assets/Scenes/expert.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -59,6 +60,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 84c8b56251a4808ddb60cc9367046290 Assembly-CSharp.dll:.CartoonAchievement
+2fa740c396d474bba0803d2530c447a6 Assembly-CSharp.dll:.FinalScore
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -119,7 +121,9 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+9213b5fff2230377cb2339e446aa6e2d Assembly-CSharp.dll:.SpeedUp
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+e99c82162f2e532fccf932adf71307f0 Assembly-CSharp.dll:.Randomspawn
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Set_player_number
 d956f253d9d480739e8feafe726fcf08 Assembly-CSharp.dll:.Score
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -127,9 +131,10 @@ d956f253d9d480739e8feafe726fcf08 Assembly-CSharp.dll:.Score
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Player
 95f2404aed7396e02855dd9295c5311c Assembly-CSharp.dll:.CartoonDropdown
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
-8e9e82ba5697de26a7c6e2f7ef19a563 Assembly-CSharp.dll:.ScoreScript
+783bda962f59849aacdffc29e72e2f84 Assembly-CSharp.dll:.ScoreScript
 a318a82d5abde553e75543c7b3aba918 XiaomiSupport.dll:AppStoresSupport.AppStoreSettings
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
+9213b5fff2230377cb2339e446aa6e2d Assembly-CSharp.dll:.Prop
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.image_show
@@ -155,7 +160,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 0169458f185e051e4c855501994df42b Assembly-CSharp.dll:.Restart_Game
 e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 d54f2e4bc4d5f7dc380f5e59536d9f73 Assembly-CSharp.dll:.Timer
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Menu_button
+ad355ccca662db3ad09f75e88e857994 Assembly-CSharp.dll:.Menu_button
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.BeforeAfterTestCommandState
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -174,6 +179,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 5de019ce54dc8e9be856d651b02e1f9c Assembly-CSharp.dll:.CartoonLevelButton
 3b760e6526e13f7504f59e210145899a Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.control_music
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Model_Static_value
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
@@ -182,9 +188,11 @@ afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.BackgroundChange
 e1a12f86446b6b5666668d241781d0b1 Assembly-CSharp.dll:.ControlSprites1
 36198851ba3e80b2a8a3bfef725e1fc7 Assembly-CSharp.dll:.SettlementScript
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BackgroundCheck
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PunishmentScript
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 05780111dc69431744dec334dd16e15b Assembly-CSharp.dll:.CartoonStars
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Round
 87bee082c4f19a6be2f087b1a08ebff5 Assembly-CSharp.dll:.CartoonShop

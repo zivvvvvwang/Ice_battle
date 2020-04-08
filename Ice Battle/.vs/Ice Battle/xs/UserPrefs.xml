@@ -1,53 +1,50 @@
 ﻿<Properties StartupConfiguration="{E0B65C21-5C68-FDDB-2B9A-2624E1002E7D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Prop.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/CollisionCheck.cs">
     <Files>
-      <File FileName="Assets/script/CollisionCheck.cs" Line="14" Column="28" IsPinned="True" />
+      <File FileName="Assets/script/CollisionCheck.cs" Line="30" Column="31" IsPinned="True" />
       <File FileName="Assets/script/SettlementScript.cs" />
-      <File FileName="Assets/script/PunishmentScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/ScoreScript.cs" Line="17" Column="16" />
-      <File FileName="Assets/script/Get_player_name.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/PunishmentScript.cs" />
+      <File FileName="Assets/script/ScoreScript.cs" />
+      <File FileName="Assets/script/Get_player_name.cs" />
       <File FileName="Assets/script/Player.cs" />
-      <File FileName="Assets/script/Menu_button.cs" Line="35" Column="1" />
-      <File FileName="Assets/script/ControlPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Menu_button.cs" />
+      <File FileName="Assets/script/ControlPlayer.cs" />
       <File FileName="Assets/script/BackgroundChange.cs" />
-      <File FileName="Assets/script/Score.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Score.cs" />
       <File FileName="Assets/script/Set_player_number.cs" />
-      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" Line="34" Column="9" />
-      <File FileName="Assets/script/ControlSprites1.cs" Line="101" Column="24" />
+      <File FileName="Assets/Cartoon/script/CartoonDropdown.cs" />
+      <File FileName="Assets/script/ControlSprites1.cs" />
       <File FileName="Assets/Cartoon/script/CartoonToggle.cs" />
       <File FileName="Assets/Cartoon/script/CartoonVertSlide.cs" />
       <File FileName="Assets/Cartoon/script/CartoonAchievement.cs" />
       <File FileName="Assets/CasualGameBGM05/ReadMe.txt" />
-      <File FileName="Assets/script/control_music.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/control_music.cs" />
       <File FileName="Assets/script/Timer.cs" />
-      <File FileName="Assets/script/Prop.cs" Line="45" Column="48" />
+      <File FileName="Assets/script/Prop.cs" Line="29" Column="19" />
       <File FileName="Assets/script/SpeedUp.cs" Line="27" Column="17" />
       <File FileName="Assets/script/Randomspawn.cs" Line="8" Column="28" />
-      <File FileName="Assets/script/Rigidbody2d.cs" />
+      <File FileName="Assets/script/Round.cs" Line="17" Column="5" />
+      <File FileName="Assets/script/Restart_Game.cs" />
+      <File FileName="Assets/script/BackgroundCheck.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Ice Battle" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Cartoon" expanded="True">
-                <Node name="script" expanded="True" />
-              </Node>
+              <Node name="Cartoon" expanded="True" />
               <Node name="script" expanded="True">
-                <Node name="Prop.cs" selected="True" />
+                <Node name="CollisionCheck.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="21d8fac5-6fd3-41d2-863e-968c99ab797f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="66d37eae-12f0-43bf-b51b-e1d9f46622b2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
